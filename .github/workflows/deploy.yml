@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted  # Roda na própria VM!
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout do código
